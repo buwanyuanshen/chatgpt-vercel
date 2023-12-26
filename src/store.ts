@@ -71,7 +71,7 @@ const models = {
   },
   "gpt-4-1106-preview": {
     "128k": "gpt-4-1106-preview"
-  }
+  },
   "gpt-4-32k": {
     "32k": "gpt-4-32k",
   },
