@@ -142,8 +142,8 @@ export default function SettingAction() {
                 }}
                 options={[
                   {
-                    value: "gpt-3.5-turbo-0314",
-                    label: "gpt-3.5-turbo-0314"
+                    value: "gpt-3.5-turbo-0301",
+                    label: "gpt-3.5-turbo-0301"
                   },
                   {
                     value: "gpt-3.5-turbo-0613",
