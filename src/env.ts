@@ -30,7 +30,7 @@ export const defaultEnv = {
     "gpt-3.5-turbo-16k": 16 * 1000,
     "gpt-3.5-turbo-16k-0613": 16 * 1000,
     "gpt-4": 8 * 1000,
-    "gpt-4-1106-preview": 8 * 1000,
+    "gpt-4-1106-preview": 128 * 1000,
     "gpt-4-32k": 32 * 1000,
     "gpt-4-32k-0314": 32 * 1000,
     "gpt-4-32k-0613": 32 * 1000
