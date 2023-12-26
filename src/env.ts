@@ -26,7 +26,7 @@ export const defaultEnv = {
 - [[Shift]] + [[Enter]] 换行。开头输入 [[/]] 或者 [[空格]] 搜索 Prompt 预设。[[↑]] 可编辑最近一次提问。点击顶部名称滚动到顶部，点击输入框滚动到底部。
 `,
   CLIENT_MAX_INPUT_TOKENS: {
-    "gpt-3.5-turbo-1106": 4 * 1000,
+    "gpt-3.5-turbo-1106": 16 * 1000,
     "gpt-3.5-turbo-16k": 16 * 1000,
     "gpt-3.5-turbo-16k-0613": 16 * 1000,
     "gpt-4": 8 * 1000,
