@@ -58,7 +58,7 @@ export const defaultMessage: ChatMessage = {
 
 const models = {
   "gpt-3.5-turbo-1106": {
-    "4k": "gpt-3.5-turbo-1106"
+    "16k": "gpt-3.5-turbo-1106"
   },
   "gpt-3.5-turbo-16k": {
     "16k": "gpt-3.5-turbo-16k"
