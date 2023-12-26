@@ -57,16 +57,30 @@ export const defaultMessage: ChatMessage = {
 }
 
 const models = {
-  "gpt-3.5": {
-    "16k": "gpt-3.5-turbo-1106"
+  "gpt-3.5-turbo-1106": {
+    "4k": "gpt-3.5-turbo-1106"
+  },
+  "gpt-3.5-turbo-16k": {
+    "16k": "gpt-3.5-turbo-16k"
+  },
+  "gpt-3.5-turbo-16k-0613": {
+    "16k": "gpt-3.5-turbo-16k-0613"
   },
   "gpt-4": {
     "8k": "gpt-4",
-    "32k": "gpt-4-32k"
   },
-  "gpt-4-preview": {
+  "gpt-4-1106-preview": {
     "128k": "gpt-4-1106-preview"
   }
+   "gpt-4-32k": {
+    "32k": "gpt-4-32k",
+  },
+  "gpt-4-32k-0314": {
+    "32k": "gpt-4-32k-0314",
+  "gpt-4-32k-0613": {
+    "32k": "gpt-4-32k-0613",
+  },
+  
 } satisfies {
   [k in SimpleModel]: {
     [k: string]: Model
@@ -78,15 +92,31 @@ const modelFee = {
     input: 0.001,
     output: 0.002
   },
+  "gpt-3.5-turbo-16k": {
+    input: 0.003,
+    output: 0.004
+  },
+  "gpt-3.5-turbo-16k-0613": {
+    input: 0.0015,
+    output: 0.002
+  },
+   "gpt-4": {
+    input: 0.03,
+    output: 0.06
+  },
   "gpt-4-1106-preview": {
     input: 0.01,
     output: 0.03
   },
-  "gpt-4": {
-    input: 0.03,
-    output: 0.06
-  },
   "gpt-4-32k": {
+    input: 0.06,
+    output: 0.12
+  }
+  "gpt-4-32k-0314": {
+    input: 0.06,
+    output: 0.12
+  }
+  "gpt-4-32k-0613": {
     input: 0.06,
     output: 0.12
   }
