@@ -63,7 +63,7 @@ export default function Header() {
                   ChatGPT
                 </span>
                 <span class="ml-1 font-extrabold text-slate-7 dark:text-slate">
-                  Vercel
+                  Bot
                 </span>
                 <a
                   class="ml-2 <sm:hidden"
