@@ -72,15 +72,15 @@ const models = {
   "gpt-4-1106-preview": {
     "128k": "gpt-4-1106-preview"
   }
-   "gpt-4-32k": {
+  "gpt-4-32k": {
     "32k": "gpt-4-32k",
   },
   "gpt-4-32k-0314": {
     "32k": "gpt-4-32k-0314",
+  },
   "gpt-4-32k-0613": {
     "32k": "gpt-4-32k-0613",
-  },
-  
+  }
 } satisfies {
   [k in SimpleModel]: {
     [k: string]: Model
@@ -100,7 +100,7 @@ const modelFee = {
     input: 0.0015,
     output: 0.002
   },
-   "gpt-4": {
+  "gpt-4": {
     input: 0.03,
     output: 0.06
   },
@@ -111,11 +111,11 @@ const modelFee = {
   "gpt-4-32k": {
     input: 0.06,
     output: 0.12
-  }
+  },
   "gpt-4-32k-0314": {
     input: 0.06,
     output: 0.12
-  }
+  },
   "gpt-4-32k-0613": {
     input: 0.06,
     output: 0.12
@@ -219,12 +219,22 @@ function Store() {
     const model = store.sessionSettings.model
     const tk = (store.inputContentToken + store.contextToken) / 1000
     switch (model) {
-      case "gpt-3.5":
-        return models["gpt-3.5"]["16k"]
+      case "gpt-3.5-turbo-1106":
+        return models["gpt-3.5-turbo-1106"]["16k"]
+      case "gpt-3.5-turbo-16k":
+        return models["gpt-3.5-turbo-16k"]["16k"]
+      case "gpt-3.5-turbo-16k-0613":
+        return models["gpt-3.5-turbo-16k-0613"]["16k"]
       case "gpt-4":
-        return models["gpt-4"][tk < 7 ? "8k" : "32k"]
-      default:
-        return models["gpt-4-preview"]["128k"]
+        return models["gpt-4"]["8k"]
+      case "gpt-4-1106-preview":
+         return models["gpt-4-1106-preview"]["128k"]
+      case "gpt-4-32k":
+        return models["gpt-4-32k"]["32k"]
+      case "gpt-4-32k-0314":
+        return models["gpt-4-32k-0314"]["32k"]
+      case "gpt-4-32k-0613":
+        return models["gpt-4-32k-0613"]["32k"]
     }
   })
 
