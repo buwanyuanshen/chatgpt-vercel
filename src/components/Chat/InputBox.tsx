@@ -164,7 +164,7 @@ export default function ({
               onClick={stopStreamFetch}
             >
               <span class="dark:text-slate text-slate-7">
-                AI 正在思考 / {shownTokens(store.currentMessageToken)} / $
+                ChatGPT 正在思考 / {shownTokens(store.currentMessageToken)} / $
                 {store.currentMessageToken$.toFixed(4)}
               </span>
             </div>
@@ -178,7 +178,7 @@ export default function ({
             <textarea
               ref={el => setStore("inputRef", el)}
               id="input"
-              placeholder="与 ta 对话吧"
+              placeholder="开始对话吧"
               autocomplete="off"
               autocapitalize="off"
               autofocus={false}
