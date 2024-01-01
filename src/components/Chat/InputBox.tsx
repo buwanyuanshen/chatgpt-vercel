@@ -178,7 +178,7 @@ export default function ({
             <textarea
               ref={el => setStore("inputRef", el)}
               id="input"
-              placeholder="开始对话吧"
+              placeholder="快来体验ChatGPT-3.5吧！"
               autocomplete="off"
               autocapitalize="off"
               autofocus={false}
