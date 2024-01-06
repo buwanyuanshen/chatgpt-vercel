@@ -106,7 +106,7 @@ const modelFee = {
     output: 0.002
   },
   "gpt-3.5-turbo": {
-    input: 0.001,
+    input: 0.0015,
     output: 0.002
   },
   "gpt-3.5-turbo-1106": {
