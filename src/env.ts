@@ -16,7 +16,7 @@ export const defaultEnv = {
     // 0-2
     APITemperature: 0.3,
     continuousDialogue: true,
-    model: "gpt-3.5-turbo-16k" as SimpleModel
+    model: "gpt-3.5-turbo-1106" as SimpleModel
   },
   CLIENT_DEFAULT_MESSAGE: `Powered by OpenAI
 - 如果本项目对你有所帮助，可以给本人 [买点零食](http://6.ccfgpt.cn/assets/cache/images/202312182348397011796.jpg)。
