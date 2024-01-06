@@ -18,9 +18,9 @@ export const defaultEnv = {
     continuousDialogue: true,
     model: "gpt-3.5-turbo-16k" as SimpleModel
   },
-  CLIENT_DEFAULT_MESSAGE: `Powered by ChatGPT
+  CLIENT_DEFAULT_MESSAGE: `Powered by OpenAI
 - 如果本项目对你有所帮助，可以给本人 [买点零食](http://6.ccfgpt.cn/assets/cache/images/202312182348397011796.jpg)。
-- 本网站仅提供短期免费使用（目前仅支持ChatGPT-3.5所有模型），如余额不足，请填入自己的APIKey使用。
+- 本网站仅提供短期免费使用（仅支持ChatGPT-3.5所有模型），如余额不足，请填入自己的APIKey使用。
 - 点击每条消息前的头像，可以锁定对话，作为角色设定。[查看更多使用技巧](https://github.com/ourongxing/chatgpt-vercel#使用技巧)。
 - 现在支持多个对话，打开对话设置，点击新建对话。在输入框里输入 [[/]][[/]] 或者 [[空格]][[空格]] 可以切换对话，搜索历史消息。
 - [[Shift]] + [[Enter]] 换行。开头输入 [[/]] 或者 [[空格]] 搜索 Prompt 预设。[[↑]] 可编辑最近一次提问。点击顶部名称滚动到顶部，点击输入框滚动到底部。
