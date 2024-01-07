@@ -19,9 +19,9 @@ export const defaultEnv = {
     model: "gpt-3.5-turbo-1106" as SimpleModel
   },
   CLIENT_DEFAULT_MESSAGE: `Powered by OpenAI
-- 本网站完全免费，不会收取任何费用！！！
+- 如果本项目对你有帮助，可以推给其他需要帮助的人❤️❤️❤️！
 - 本网站仅提供短期免费使用（仅支持ChatGPT-3.5所有模型），如余额不足，请填入自己的APIKey使用。
-- 本人[博客](https://6.ccfgpt.cn)，持续更新文章！
+- [本人博客](http://6.ccfgpt.cn)，持续更新文章！
 - 感兴趣的小伙伴可加入[q群226848325](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1OOigjF5hxHUSQ5GE5U2UOIwswuckYOe&authKey=2pdTkM0NqehD2OuMojvBMnsmCAUcD6oO3ttDzS5CNle8tnre1a9Jp30aJZVUnC2c&noverify=0&group_code=226848325)学习交流！！！
 - 点击每条消息前的头像，可以锁定对话，作为角色设定。[查看更多使用技巧](https://github.com/ourongxing/chatgpt-vercel#使用技巧)。
 - 现在支持多个对话，打开对话设置，点击新建对话。在输入框里输入 [[/]][[/]] 或者 [[空格]][[空格]] 可以切换对话，搜索历史消息。
