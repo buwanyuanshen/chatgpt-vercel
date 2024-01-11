@@ -142,6 +142,14 @@ export default function SettingAction() {
                 }}
                 options={[
                   {
+                    value: "babbage-002",
+                    label: "babbage-002"
+                  },
+                  {
+                    value: "davinci-002",
+                    label: "davinci-002"
+                  },
+                  {
                     value: "gpt-3.5-turbo-0301",
                     label: "gpt-3.5-turbo-0301"
                   },
@@ -150,8 +158,7 @@ export default function SettingAction() {
                     label: "gpt-3.5-turbo-0613"
                   },
                   {
-                    value: 
-"gpt-3.5-turbo",
+                    value: "gpt-3.5-turbo",
                     label: "gpt-3.5-turbo"
                   },
                   {
