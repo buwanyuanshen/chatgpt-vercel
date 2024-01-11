@@ -26,8 +26,6 @@ export const defaultEnv = {
 - 感兴趣的小伙伴可加入[q群226848325](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1OOigjF5hxHUSQ5GE5U2UOIwswuckYOe&authKey=2pdTkM0NqehD2OuMojvBMnsmCAUcD6oO3ttDzS5CNle8tnre1a9Jp30aJZVUnC2c&noverify=0&group_code=226848325)学习交流！！！
 `,
   CLIENT_MAX_INPUT_TOKENS: {
-    "babbage-002": 16 * 1000,
-    "davinci-002": 16 * 1000,
     "gpt-3.5-turbo-0301": 4 * 1000,
     "gpt-3.5-turbo-0613": 4 * 1000,
     "gpt-3.5-turbo-1106": 4 * 1000,
