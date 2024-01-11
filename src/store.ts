@@ -57,12 +57,6 @@ export const defaultMessage: ChatMessage = {
 }
 
 const models = {
-  "babbage-002": {
-    "16k": "babbage-002"
-  },
-  "davinci-002": {
-    "16k": "davinci-002"
-  },
   "gpt-3.5-turbo-0301": {
     "4k": "gpt-3.5-turbo-0301"
   },
@@ -103,14 +97,6 @@ const models = {
 }
 
 const modelFee = {
-  "babbage-002": {
-    input: 0.0016,
-    output: 0.0016
-  },
-  "davinci-002": {
-    input: 0.012,
-    output: 0.012
-  },
   "gpt-3.5-turbo-0301": {
     input: 0.0015,
     output: 0.002
@@ -254,10 +240,6 @@ function Store() {
     const model = store.sessionSettings.model
     const tk = (store.inputContentToken + store.contextToken) / 1000
     switch (model) {
-      case "babbage-002":
-        return models["babbage-002"]["16k"]
-      case "davinci-002":
-        return models["davinci-002"]["16k"]
       case "gpt-3.5-turbo-0301":
         return models["gpt-3.5-turbo-0301"]["4k"]
       case "gpt-3.5-turbo-0613":
