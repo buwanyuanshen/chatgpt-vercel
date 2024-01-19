@@ -23,7 +23,7 @@ export const defaultEnv = {
 - 本网站仅提供短期免费使用（3.5所有模型），可填入自己的APIKey使用.
 - 本人所属其余chat网址：[ChatGPT-4.0](https://chatpro.icu)，[ChatGPT-3.5](https://ccf666.cn)，[Gemini Pro](https://ccfgpt.cn)，[ChatGPT-3.5](https://6.ccf666.cn).
 - 在输入框里输入[[/]][[/]]或[[空格]][[空格]]切换对话，[[Shift]]+[[Enter]]换行，输入[[/]]或[[空格]]搜索Prompt预设，输入[[↑]]编辑最近一次提问。
-- 感兴趣的小伙伴可加入[q群226848325](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1OOigjF5hxHUSQ5GE5U2UOIwswuckYOe&authKey=2pdTkM0NqehD2OuMojvBMnsmCAUcD6oO3ttDzS5CNle8tnre1a9Jp30aJZVUnC2c&noverify=0&group_code=226848325)学习交流！[本人博客](https://6.ccfgpt.cn)！持续更新！
+- 感兴趣的小伙伴可加入[q群226848325](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1OOigjF5hxHUSQ5GE5U2UOIwswuckYOe&authKey=2pdTkM0NqehD2OuMojvBMnsmCAUcD6oO3ttDzS5CNle8tnre1a9Jp30aJZVUnC2c&noverify=0&group_code=226848325)学习交流！
 `,
   CLIENT_MAX_INPUT_TOKENS: {
     "gpt-3.5-turbo-0301": 4 * 1000,
