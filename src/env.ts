@@ -21,7 +21,7 @@ export const defaultEnv = {
   CLIENT_DEFAULT_MESSAGE: `Powered by OpenAI
 - 如果本项目对你有帮助，可以推给其他需要帮助的人❤️❤️❤️！
 - 本网站仅提供短期免费使用（多种模型可供选择），可填入自己的APIKey使用.
-- 本人所属其余chat网址：[Gemini Pro](https://ccfgpt.cn)，[ChatGPT-3.5-NextWeb](https://ccf666.cn)，[ChatGPT-4.0-NextWeb](https://chatpro.icu)，[ChatGPT-3.5-16k](https://6.ccf666.cn)，[ChatGPT-3.5-1106](https://6.ccfgpt.cn)，[ChatGPT-4.0-32k](https://6.chatpro.icu)，[ChatGPT-DALLE](https://6.supergpt.shop).
+- 本人所属其余chat网址：[Gemini Pro](https://ccfgpt.cn)，[ChatGPT-3.5-NextWeb](https://ccf666.cn)，[ChatGPT-4.0-NextWeb](https://chatpro.icu)，[ChatGPT-ALL-NextWeb](https://66.ccf666.cn)，[ChatGPT-3.5-16k](https://6.ccf666.cn)，[ChatGPT-3.5-1106](https://6.ccfgpt.cn)，[ChatGPT-4.0-32k](https://6.chatpro.icu)，[ChatGPT-DALLE](https://6.supergpt.shop).
 - 在输入框里输入[[/]][[/]]或[[空格]][[空格]]切换对话，[[Shift]]+[[Enter]]换行，输入[[/]]或[[空格]]搜索Prompt预设，输入[[↑]]编辑最近一次提问。
 - 感兴趣的小伙伴可加入[q群226848325](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1OOigjF5hxHUSQ5GE5U2UOIwswuckYOe&authKey=2pdTkM0NqehD2OuMojvBMnsmCAUcD6oO3ttDzS5CNle8tnre1a9Jp30aJZVUnC2c&noverify=0&group_code=226848325)学习交流~！
 `,
