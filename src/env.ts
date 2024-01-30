@@ -14,7 +14,7 @@ export const defaultEnv = {
     title: "",
     saveSession: true,
     // 0-2
-    APITemperature: 0.3,
+    APITemperature: 0.5,
     continuousDialogue: true,
     model: "gpt-3.5-turbo-1106" as SimpleModel
   },
