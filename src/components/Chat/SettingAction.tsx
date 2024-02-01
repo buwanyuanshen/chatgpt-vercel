@@ -158,6 +158,10 @@ export default function SettingAction() {
                     label: "gpt-3.5-turbo-1106"
                   },
                   {
+                    value: "gpt-3.5-turbo-0125",
+                    label: "gpt-3.5-turbo-0125"
+                  },
+                  {
                     value: "gpt-3.5-turbo-16k",
                     label: "gpt-3.5-turbo-16k"
                   },
