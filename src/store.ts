@@ -69,6 +69,9 @@ const models = {
   "gpt-3.5-turbo-1106": {
     "4k": "gpt-3.5-turbo-1106"
   },
+  "gpt-3.5-turbo-0125": {
+    "4k": "gpt-3.5-turbo-0125"
+  },
   "gpt-3.5-turbo-16k": {
     "16k": "gpt-3.5-turbo-16k"
   },
@@ -112,6 +115,10 @@ const modelFee = {
   "gpt-3.5-turbo-1106": {
     input: 0.001,
     output: 0.002
+  },
+  "gpt-3.5-turbo-0125": {
+    input: 0.0005,
+    output: 0.0015
   },
   "gpt-3.5-turbo-16k": {
     input: 0.003,
@@ -248,6 +255,8 @@ function Store() {
         return models["gpt-3.5-turbo"]["4k"]
       case "gpt-3.5-turbo-1106":
         return models["gpt-3.5-turbo-1106"]["4k"]
+      case "gpt-3.5-turbo-0125":
+        return models["gpt-3.5-turbo-0125"]["4k"]
       case "gpt-3.5-turbo-16k":
         return models["gpt-3.5-turbo-16k"]["16k"]
       case "gpt-3.5-turbo-16k-0613":
