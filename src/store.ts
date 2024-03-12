@@ -81,8 +81,8 @@ const models = {
   "gpt-4": {
     "8k": "gpt-4",
   },
-  "gpt-4-1106-preview": {
-    "128k": "gpt-4-1106-preview"
+  "gpt-4-0125-preview": {
+    "128k": "gpt-4-0125-preview"
   },
   "gpt-4-32k": {
     "32k": "gpt-4-32k",
@@ -128,7 +128,7 @@ const modelFee = {
     input: 0.0015,
     output: 0.002
   },
-  "gpt-4-1106-preview": {
+  "gpt-4-0125-preview": {
     input: 0.01,
     output: 0.03
   },
@@ -263,8 +263,8 @@ function Store() {
         return models["gpt-3.5-turbo-16k-0613"]["16k"]
       case "gpt-4":
         return models["gpt-4"]["8k"]
-      case "gpt-4-1106-preview":
-         return models["gpt-4-1106-preview"]["128k"]
+      case "gpt-4-0125-preview":
+         return models["gpt-4-0125-preview"]["128k"]
       case "gpt-4-32k":
         return models["gpt-4-32k"]["32k"]
       case "gpt-4-32k-0314":
