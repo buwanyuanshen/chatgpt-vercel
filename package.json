@@ -51,7 +51,7 @@
     "@iconify-json/carbon": "^1.1.21",
     "@iconify-json/ri": "^1.1.12",
     "@types/markdown-it": "^13.0.5",
-    "@types/node": "^20.8.10",
+    "@types/node": "^18.19.1",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "@vercel/node": "^3.0.7",
