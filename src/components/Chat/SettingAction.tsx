@@ -174,8 +174,8 @@ export default function SettingAction() {
                     label: "gpt-4"
                   },
                   {
-                    value: "gpt-4-1106-preview",
-                    label: "gpt-4-1106-preview"
+                    value: "gpt-4-0125-preview",
+                    label: "gpt-4-0125-preview"
                   },
                   {
                     value: "gpt-4-32k",
