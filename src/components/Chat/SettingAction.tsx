@@ -30,7 +30,7 @@ type ImgStatusUnion = "normal" | "loading" | "success" | "error"
 const imgIcons: Record<ImgStatusUnion, string> = {
   success: "i-carbon:status-resolved dark:text-yellow text-yellow-6",
   normal: "i-carbon:image",
-  loading: "i-ri:loader-2-line animate-spin",
+  loading: "i-ri:import-2-line animate-spin",
   error: "i-carbon:warning-alt text-red-6 dark:text-red"
 }
 
